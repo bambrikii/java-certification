@@ -1,0 +1,189 @@
+Classfile /C:/Users/arakelyanaa/workspace/5/lambda/Calculator.class
+  Last modified 21.08.2013; size 1566 bytes
+  MD5 checksum 204ee19735353b200a19ffd4d0d15f85
+  Compiled from "Calculator.java"
+public class Calculator
+  SourceFile: "Calculator.java"
+  InnerClasses:
+       static #19= #18 of #3; //IntegerMath=class Calculator$IntegerMath of class Calculator
+       public static final #81= #80 of #83; //Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+  BootstrapMethods:
+    0: #38 invokestatic java/lang/invoke/LambdaMetafactory.metaFactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+      Method arguments:
+        #39 invokeinterface Calculator$IntegerMath.operation:(II)I
+        #40 invokestatic Calculator.lambda$0:(II)I
+        #41 (II)I
+    1: #38 invokestatic java/lang/invoke/LambdaMetafactory.metaFactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+      Method arguments:
+        #39 invokeinterface Calculator$IntegerMath.operation:(II)I
+        #43 invokestatic Calculator.lambda$1:(II)I
+        #41 (II)I
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #17.#34        //  java/lang/Object."<init>":()V
+   #2 = InterfaceMethodref #18.#35        //  Calculator$IntegerMath.operation:(II)I
+   #3 = Class              #36            //  Calculator
+   #4 = Methodref          #3.#34         //  Calculator."<init>":()V
+   #5 = InvokeDynamic      #0:#42         //  #0:lambda$:()LCalculator$IntegerMath;
+   #6 = InvokeDynamic      #1:#42         //  #1:lambda$:()LCalculator$IntegerMath;
+   #7 = Fieldref           #44.#45        //  java/lang/System.out:Ljava/io/PrintStream;
+   #8 = Class              #46            //  java/lang/StringBuilder
+   #9 = Methodref          #8.#34         //  java/lang/StringBuilder."<init>":()V
+  #10 = String             #47            //  40 + 2 = 
+  #11 = Methodref          #8.#48         //  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #12 = Methodref          #3.#49         //  Calculator.operateBinary:(IILCalculator$IntegerMath;)I
+  #13 = Methodref          #8.#50         //  java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+  #14 = Methodref          #8.#51         //  java/lang/StringBuilder.toString:()Ljava/lang/String;
+  #15 = Methodref          #52.#53        //  java/io/PrintStream.println:(Ljava/lang/String;)V
+  #16 = String             #54            //  20 - 10 = 
+  #17 = Class              #55            //  java/lang/Object
+  #18 = Class              #56            //  Calculator$IntegerMath
+  #19 = Utf8               IntegerMath
+  #20 = Utf8               InnerClasses
+  #21 = Utf8               <init>
+  #22 = Utf8               ()V
+  #23 = Utf8               Code
+  #24 = Utf8               LineNumberTable
+  #25 = Utf8               operateBinary
+  #26 = Utf8               (IILCalculator$IntegerMath;)I
+  #27 = Utf8               main
+  #28 = Utf8               ([Ljava/lang/String;)V
+  #29 = Utf8               lambda$1
+  #30 = Utf8               (II)I
+  #31 = Utf8               lambda$0
+  #32 = Utf8               SourceFile
+  #33 = Utf8               Calculator.java
+  #34 = NameAndType        #21:#22        //  "<init>":()V
+  #35 = NameAndType        #57:#30        //  operation:(II)I
+  #36 = Utf8               Calculator
+  #37 = Utf8               BootstrapMethods
+  #38 = MethodHandle       #6:#58         //  invokestatic java/lang/invoke/LambdaMetafactory.metaFactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #39 = MethodHandle       #9:#2          //  invokeinterface Calculator$IntegerMath.operation:(II)I
+  #40 = MethodHandle       #6:#59         //  invokestatic Calculator.lambda$0:(II)I
+  #41 = MethodType         #30            //  (II)I
+  #42 = NameAndType        #60:#61        //  lambda$:()LCalculator$IntegerMath;
+  #43 = MethodHandle       #6:#62         //  invokestatic Calculator.lambda$1:(II)I
+  #44 = Class              #63            //  java/lang/System
+  #45 = NameAndType        #64:#65        //  out:Ljava/io/PrintStream;
+  #46 = Utf8               java/lang/StringBuilder
+  #47 = Utf8               40 + 2 = 
+  #48 = NameAndType        #66:#67        //  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #49 = NameAndType        #25:#26        //  operateBinary:(IILCalculator$IntegerMath;)I
+  #50 = NameAndType        #66:#68        //  append:(I)Ljava/lang/StringBuilder;
+  #51 = NameAndType        #69:#70        //  toString:()Ljava/lang/String;
+  #52 = Class              #71            //  java/io/PrintStream
+  #53 = NameAndType        #72:#73        //  println:(Ljava/lang/String;)V
+  #54 = Utf8               20 - 10 = 
+  #55 = Utf8               java/lang/Object
+  #56 = Utf8               Calculator$IntegerMath
+  #57 = Utf8               operation
+  #58 = Methodref          #74.#75        //  java/lang/invoke/LambdaMetafactory.metaFactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #59 = Methodref          #3.#76         //  Calculator.lambda$0:(II)I
+  #60 = Utf8               lambda$
+  #61 = Utf8               ()LCalculator$IntegerMath;
+  #62 = Methodref          #3.#77         //  Calculator.lambda$1:(II)I
+  #63 = Utf8               java/lang/System
+  #64 = Utf8               out
+  #65 = Utf8               Ljava/io/PrintStream;
+  #66 = Utf8               append
+  #67 = Utf8               (Ljava/lang/String;)Ljava/lang/StringBuilder;
+  #68 = Utf8               (I)Ljava/lang/StringBuilder;
+  #69 = Utf8               toString
+  #70 = Utf8               ()Ljava/lang/String;
+  #71 = Utf8               java/io/PrintStream
+  #72 = Utf8               println
+  #73 = Utf8               (Ljava/lang/String;)V
+  #74 = Class              #78            //  java/lang/invoke/LambdaMetafactory
+  #75 = NameAndType        #79:#82        //  metaFactory:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #76 = NameAndType        #31:#30        //  lambda$0:(II)I
+  #77 = NameAndType        #29:#30        //  lambda$1:(II)I
+  #78 = Utf8               java/lang/invoke/LambdaMetafactory
+  #79 = Utf8               metaFactory
+  #80 = Class              #84            //  java/lang/invoke/MethodHandles$Lookup
+  #81 = Utf8               Lookup
+  #82 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodHandle;Ljava/lang/invoke/MethodType;)Ljava/lang/invoke/CallSite;
+  #83 = Class              #85            //  java/lang/invoke/MethodHandles
+  #84 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #85 = Utf8               java/lang/invoke/MethodHandles
+{
+  public Calculator();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 2: 0
+        line 4: 4
+
+  public int operateBinary(int, int, Calculator$IntegerMath);
+    descriptor: (IILCalculator$IntegerMath;)I
+    flags: ACC_PUBLIC
+    Code:
+      stack=3, locals=4, args_size=4
+         0: aload_3       
+         1: iload_1       
+         2: iload_2       
+         3: invokeinterface #2,  3            // InterfaceMethod Calculator$IntegerMath.operation:(II)I
+         8: ireturn       
+      LineNumberTable:
+        line 9: 0
+
+  public static void main(java.lang.String...);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC, ACC_VARARGS
+    Code:
+      stack=6, locals=4, args_size=1
+         0: new           #3                  // class Calculator
+         3: dup           
+         4: invokespecial #4                  // Method "<init>":()V
+         7: astore_1      
+         8: invokedynamic #5,  0              // InvokeDynamic #0:lambda$:()LCalculator$IntegerMath;
+        13: astore_2      
+        14: invokedynamic #6,  0              // InvokeDynamic #1:lambda$:()LCalculator$IntegerMath;
+        19: astore_3      
+        20: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        23: new           #8                  // class java/lang/StringBuilder
+        26: dup           
+        27: invokespecial #9                  // Method java/lang/StringBuilder."<init>":()V
+        30: ldc           #10                 // String 40 + 2 = 
+        32: invokevirtual #11                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        35: aload_1       
+        36: bipush        40
+        38: iconst_2      
+        39: aload_2       
+        40: invokevirtual #12                 // Method operateBinary:(IILCalculator$IntegerMath;)I
+        43: invokevirtual #13                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+        46: invokevirtual #14                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        49: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        52: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        55: new           #8                  // class java/lang/StringBuilder
+        58: dup           
+        59: invokespecial #9                  // Method java/lang/StringBuilder."<init>":()V
+        62: ldc           #16                 // String 20 - 10 = 
+        64: invokevirtual #11                 // Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+        67: aload_1       
+        68: bipush        20
+        70: bipush        10
+        72: aload_3       
+        73: invokevirtual #12                 // Method operateBinary:(IILCalculator$IntegerMath;)I
+        76: invokevirtual #13                 // Method java/lang/StringBuilder.append:(I)Ljava/lang/StringBuilder;
+        79: invokevirtual #14                 // Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+        82: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        85: return        
+      LineNumberTable:
+        line 14: 0
+        line 15: 8
+        line 16: 14
+        line 17: 20
+        line 18: 40
+        line 17: 49
+        line 19: 52
+        line 20: 73
+        line 19: 82
+        line 21: 85
+}

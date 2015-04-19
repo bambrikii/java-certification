@@ -1,0 +1,1 @@
+javac -cp . pkg1/A.java pkg1/B.java

@@ -1,0 +1,94 @@
+Classfile /C:/Documents and Settings/ArakelyanAA/workspace/5/Double1.class
+  Last modified 05.06.2013; size 584 bytes
+  MD5 checksum a5cadfbd1ae047f9dc514d601fde5a97
+  Compiled from "Double1.java"
+public class Double1
+  SourceFile: "Double1.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #8.#21         //  java/lang/Object."<init>":()V
+   #2 = Double             NaNd
+   #4 = Methodref          #22.#23        //  java/lang/Double.valueOf:(D)Ljava/lang/Double;
+   #5 = Fieldref           #24.#25        //  java/lang/System.out:Ljava/io/PrintStream;
+   #6 = Methodref          #26.#27        //  java/io/PrintStream.println:(Z)V
+   #7 = Class              #28            //  Double1
+   #8 = Class              #29            //  java/lang/Object
+   #9 = Utf8               <init>
+  #10 = Utf8               ()V
+  #11 = Utf8               Code
+  #12 = Utf8               LineNumberTable
+  #13 = Utf8               main
+  #14 = Utf8               ([Ljava/lang/String;)V
+  #15 = Utf8               StackMapTable
+  #16 = Class              #30            //  "[Ljava/lang/String;"
+  #17 = Class              #31            //  java/lang/Double
+  #18 = Class              #32            //  java/io/PrintStream
+  #19 = Utf8               SourceFile
+  #20 = Utf8               Double1.java
+  #21 = NameAndType        #9:#10         //  "<init>":()V
+  #22 = Class              #31            //  java/lang/Double
+  #23 = NameAndType        #33:#34        //  valueOf:(D)Ljava/lang/Double;
+  #24 = Class              #35            //  java/lang/System
+  #25 = NameAndType        #36:#37        //  out:Ljava/io/PrintStream;
+  #26 = Class              #32            //  java/io/PrintStream
+  #27 = NameAndType        #38:#39        //  println:(Z)V
+  #28 = Utf8               Double1
+  #29 = Utf8               java/lang/Object
+  #30 = Utf8               [Ljava/lang/String;
+  #31 = Utf8               java/lang/Double
+  #32 = Utf8               java/io/PrintStream
+  #33 = Utf8               valueOf
+  #34 = Utf8               (D)Ljava/lang/Double;
+  #35 = Utf8               java/lang/System
+  #36 = Utf8               out
+  #37 = Utf8               Ljava/io/PrintStream;
+  #38 = Utf8               println
+  #39 = Utf8               (Z)V
+{
+  public Double1();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 1: 0
+
+  public static void main(java.lang.String[]);
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=3, args_size=1
+         0: ldc2_w        #2                  // double NaNd
+         3: invokestatic  #4                  // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+         6: astore_1      
+         7: ldc2_w        #2                  // double NaNd
+        10: invokestatic  #4                  // Method java/lang/Double.valueOf:(D)Ljava/lang/Double;
+        13: astore_2      
+        14: getstatic     #5                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        17: aload_1       
+        18: aload_2       
+        19: if_acmpne     26
+        22: iconst_1      
+        23: goto          27
+        26: iconst_0      
+        27: invokevirtual #6                  // Method java/io/PrintStream.println:(Z)V
+        30: return        
+      LineNumberTable:
+        line 10: 0
+        line 11: 7
+        line 12: 14
+        line 22: 30
+      StackMapTable: number_of_entries = 2
+           frame_type = 255 /* full_frame */
+          offset_delta = 26
+          locals = [ class "[Ljava/lang/String;", class java/lang/Double, class java/lang/Double ]
+          stack = [ class java/io/PrintStream ]
+           frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class "[Ljava/lang/String;", class java/lang/Double, class java/lang/Double ]
+          stack = [ class java/io/PrintStream, int ]
+
+}

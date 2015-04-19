@@ -1,0 +1,1 @@
+javac -cp . A.java B.java

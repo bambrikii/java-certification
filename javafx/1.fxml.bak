@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.web.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <TabPane layoutX="14.0" layoutY="14.0" prefHeight="372.0" prefWidth="586.0" tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Untitled Tab 1">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="306.0" prefWidth="443.0">
+              <children>
+                <Accordion layoutX="14.0" layoutY="9.0" prefHeight="320.0" prefWidth="272.0">
+                  <expandedPane>
+                    <TitledPane fx:id="x1" animated="false" text="untitled">
+                      <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="298.0" prefWidth="558.0">
+                          <children>
+                            <Pane layoutX="14.0" layoutY="14.0">
+                              <children>
+                                <ToolBar>
+                                  <items>
+                                    <Button mnemonicParsing="false" onMouseClicked="onMouseClicked" text="Button">
+                                      <contextMenu>
+                                        <ContextMenu>
+                                          <items>
+                                            <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                                          </items>
+                                        </ContextMenu>
+                                      </contextMenu>
+                                    </Button>
+                                  </items>
+                                </ToolBar>
+                                <Button layoutX="14.0" layoutY="70.0" mnemonicParsing="false" text="%key.unspecified" />
+                                <CheckBox layoutX="14.0" layoutY="46.0" mnemonicParsing="false" text="CheckBox" />
+                                <ChoiceBox layoutX="14.0" layoutY="97.0">
+                                  <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                      <String fx:value="Item 1" />
+                                      <String fx:value="Item 2" />
+                                      <String fx:value="Item 3" />
+                                    </FXCollections>
+                                  </items>
+                                </ChoiceBox>
+                                <ColorPicker layoutX="14.0" layoutY="123.0" minHeight="22.0" prefHeight="42.0" />
+                              </children>
+                            </Pane>
+                            <ComboBox layoutX="28.0" layoutY="192.0">
+                              <items>
+                                <FXCollections fx:factory="observableArrayList">
+                                  <String fx:value="Item 1" />
+                                  <String fx:value="Item 2" />
+                                  <String fx:value="Item 3" />
+                                </FXCollections>
+                              </items>
+                            </ComboBox>
+                          </children>
+                        </AnchorPane>
+                      </content>
+                    </TitledPane>
+                  </expandedPane>
+                  <panes>
+                    <fx:reference source="x1" />
+                    <TitledPane animated="false" text="untitled">
+                      <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                      </content>
+                    </TitledPane>
+                  </panes>
+                </Accordion>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Untitled Tab 2">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+              <children>
+                <HTMLEditor maxHeight="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="343.0" prefWidth="586.0" />
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Untitled Tab">
+          <content>
+            <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+</AnchorPane>

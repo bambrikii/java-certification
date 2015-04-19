@@ -1,0 +1,1109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='7496' time_ms='1385640136875'>
+<vm_version>
+<name>
+Java HotSpot(TM) Client VM
+</name>
+<release>
+19.0-b09
+</release>
+<info>
+Java HotSpot(TM) Client VM (19.0-b09) for windows-x86 JRE (1.6.0_23-b05), built on Nov 12 2010 15:00:43 by &quot;java_re&quot; with MS VC++ 7.1 (VS2003)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading -XX:+LogCompilation -XX:+PrintAssembly 
+</args>
+<command>
+DoubleCheckTest 1 1
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.version=1.0
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Sun Microsystems Inc.
+java.vm.version=19.0-b09
+java.vm.name=Java HotSpot(TM) Client VM
+java.vm.vendor=Sun Microsystems Inc.
+java.vm.info=mixed mode, sharing
+java.ext.dirs=C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.endorsed.dirs=C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\endorsed
+sun.boot.library.path=C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\bin
+java.library.path=C:\Users\arakelyanaa\Java\jdk1.6.0_23\bin;.;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\arakelyanaa\Far30b3525.x64.20130717\;C:\Users\arakelyanaa\Java\jdk1.7.0_45\bin;C:\Users\arakelyanaa\Apache Software Foundation\apache-ant-1.8.2\bin;C:\Users\arakelyanaa\Apache Software Foundation\apache-maven-3.0.4\bin;c:\oracle\client_11.2.0.3\bin;C:\oracle\client_10.2.0.5\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Python27;C:\Users\arakelyanaa\Far20b1807.x86.20110203\;C:\Program Files\EmEditor;C:\Program Files (x86)\Git\cmd
+java.home=C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre
+java.class.path=.
+sun.boot.class.path=C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\resources.jar;C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar;C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\sunrsasign.jar;C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\jsse.jar;C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\jce.jar;C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\charsets.jar;C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\modules\jdk.boot.jar;C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\classes
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+Java HotSpot(TM) Client VM warning: PrintAssembly is enabled; turning on DebugNonSafepoints to gain additional output
+<writer thread='8992'/>
+[Opened C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Object from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.Serializable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Comparable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.CharSequence from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.String from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.GenericDeclaration from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Type from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AnnotatedElement from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Class from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Cloneable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.System from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Throwable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Error from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ThreadDeath from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Exception from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.RuntimeException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.AccessControlContext from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ClassNotFoundException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.LinkageError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.NoClassDefFoundError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ClassCastException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ArrayStoreException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.VirtualMachineError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.OutOfMemoryError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StackOverflowError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.IllegalMonitorStateException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.SoftReference from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.WeakReference from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.FinalReference from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.PhantomReference from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Runnable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Thread from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Thread$UncaughtExceptionHandler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ThreadGroup from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Map from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Dictionary from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Hashtable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Properties from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AccessibleObject from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Member from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Field from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Method from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Constructor from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.MagicAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessor from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessor from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingClassLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstantPool from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessor from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeFieldAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeStaticFieldAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Appendable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.AbstractStringBuilder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StringBuffer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StringBuilder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StackTraceElement from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.Buffer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.AtomicLong from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.AtomicLongCSImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Boolean from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Character from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Number from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Float from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Double from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Byte from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Short from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Integer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Long from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.NullPointerException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ArithmeticException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.ObjectStreamField from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Comparator from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.String$CaseInsensitiveComparator from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.Guard from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.Permission from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.BasicPermission from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.RuntimePermission from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.AbstractMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.SoftCache from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Null from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Lock from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.HashMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Map$Entry from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.HashMap$Entry from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.AccessController from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectPermission from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedAction from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$GetReflectionFactoryAction from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Iterable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Collection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.List from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.RandomAccess from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.AbstractCollection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.AbstractList from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Vector from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Stack from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$Lock from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$ReferenceHandler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer$FinalizerThread from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Enumeration from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$EmptyEnumerator from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Iterator from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$EmptyIterator from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$Entry from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.Charset from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.spi.CharsetProvider from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.FastCharsetProvider from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.util.PreHashedMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Aliases from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Classes from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Cache from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicInteger from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Unsafe from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.IncompatibleClassChangeError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.NoSuchMethodError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.Reflection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Collections from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Set from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.AbstractSet from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptySet from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyList from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Collections$ReverseComparator from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Collections$SynchronizedMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Class$3 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Modifier from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.LangReflectAccess from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectAccess from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StringValue from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Arrays from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Math from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.HistoricallyNamedCharset from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.MS1251 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Class$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.NativeConstructorAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingConstructorAccessorImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.VM from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal$ThreadLocalMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal$ThreadLocalMap$Entry from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding$StringDecoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetDecoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByteDecoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.MS1251$Decoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.CodingErrorAction from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.ByteBuffer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.HeapByteBuffer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.Bits from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.ByteOrder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Readable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.CharBuffer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.HeapCharBuffer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$Cache from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$2 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Version from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.JavaLangAccess from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.System$2 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.SharedSecrets from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Runtime from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.File from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FileSystem from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.Win32FileSystem from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.WinNTFileSystem from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$Entry from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.security.action.GetPropertyAction from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.jkernel.DownloadManager from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.jkernel.DownloadManager$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.jkernel.DownloadManager$2 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$3 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$Entry from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$NativeLibrary from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding$StringEncoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetEncoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByteEncoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.MS1251$Encoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Surrogate$Parser from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Surrogate from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.Closeable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.InputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FileInputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FileDescriptor from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.Flushable from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.OutputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FileOutputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FilterInputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.BufferedInputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.reflect.misc.ReflectUtil from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FilterOutputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.PrintStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.BufferedOutputStream from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.Writer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.OutputStreamWriter from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamEncoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.BufferedWriter from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Terminator from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.SignalHandler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Terminator$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Signal from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.NativeSignalHandler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.OSEnvironment from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.io.Win32ErrorMode from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Compiler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Compiler$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandlerFactory from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$Factory from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.SecureClassLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.security.util.Debug from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Package from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.URL from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.CodeSource from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.Void from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.cert.Certificate from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.ClassFormatError from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.IllegalArgumentException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.IOException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.AssertionStatusDirectives from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.JavaNetAccess from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$7 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.PermissionCollection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.StringTokenizer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedExceptionAction from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.MetaIndex from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.Reader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.BufferedReader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.InputStreamReader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FileReader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamDecoder from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.ArrayList from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Array from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.Locale from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.Lock from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Segment from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.AbstractOwnableSynchronizer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.AbstractQueuedSynchronizer from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock$Sync from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock$NonfairSync from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.AbstractQueuedSynchronizer$Node from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$HashEntry from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.CharacterDataLatin1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.ObjectStreamClass from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.net.www.ParseUtil from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.BitSet from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.Parts from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.Handler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.util.HashSet from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.jar.Handler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.lang.SystemClassLoaderAction from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+<task_queued compile_id='1' method='java/lang/String hashCode ()I' bytes='64' count='188' backedge_count='750' iicount='0' stamp='0.036' comment='count' hot_count='188'/>
+[Loaded java.net.URLClassLoader$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.net.util.URLUtil from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$3 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$Loader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+<writer thread='8572'/>
+<thread_logfile thread='8572' filename='C:\Users\ARAKEL~1\AppData\Local\Temp\\hs_c8572_pid7496.log'/>
+<writer thread='8992'/>
+<task_queued compile_id='2' method='java/lang/String charAt (I)C' bytes='33' count='750' backedge_count='1' iicount='0' stamp='0.037' comment='count' hot_count='1500'/>
+<writer thread='8572'/>
+Loaded disassembler from hsdis-i386.dll
+Decoding compiled method 0x024cc308:
+Code:
+<writer thread='8992'/>
+[Loaded java.security.PrivilegedActionException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+<writer thread='8572'/>
+[Disassembling for mach=&apos;i386&apos;]
+[Entry Point]
+  # {method} &apos;hashCode&apos; &apos;()I&apos; in &apos;java/lang/String&apos;
+  #           [sp+0x30]  (sp of caller)
+  0x024cc400: nop    
+  0x024cc401: nop    
+  0x024cc402: nop    
+  0x024cc403: nop    
+  0x024cc404: nop    
+  0x024cc405: nop    
+  0x024cc406: nop    
+  0x024cc407: cmp    0x4(%ecx),%eax
+  0x024cc40a: jne    0x0248cd40         ;   {runtime_call}
+[Verified Entry Point]
+  0x024cc410: mov    %eax,0xffffd000(%esp)
+  0x024cc417: push   %ebp
+  0x024cc418: sub    $0x28,%esp         ;*aload_0
+                                        ; - java.lang.String::hashCode@0 (line 1482)
+  0x024cc41b: mov    %ecx,0x10(%esp)
+  0x024cc41f: mov    0x14(%ecx),%eax    ;*getfield hash
+                                        ; - java.lang.String::hashCode@1 (line 1482)
+  0x024cc422: mov    0x10(%ecx),%esi    ;*getfield count
+                                        ; - java.lang.String::hashCode@6 (line 1483)
+  0x024cc425: mov    %esi,0x14(%esp)
+  0x024cc429: cmp    $0x0,%eax
+  0x024cc42c: jne    0x024cc47e         ;*ifne
+                                        ; - java.lang.String::hashCode@11 (line 1484)
+  0x024cc432: cmp    $0x0,%esi
+  0x024cc435: jle    0x024cc47e         ;*ifle
+                                        ; - java.lang.String::hashCode@15 (line 1484)
+  0x024cc43b: mov    0xc(%ecx),%edi     ;*getfield offset
+                                        ; - java.lang.String::hashCode@19 (line 1485)
+  0x024cc43e: mov    0x8(%ecx),%ebx     ;*getfield value
+                                        ; - java.lang.String::hashCode@24 (line 1486)
+  0x024cc441: mov    $0x0,%edx
+  0x024cc446: jmp    0x024cc473         ;*istore
+                                        ; - java.lang.String::hashCode@30 (line 1488)
+  0x024cc44b: nop    
+  0x024cc44c: mov    %edi,%ecx
+  0x024cc44e: inc    %ecx
+  0x024cc44f: cmp    0x8(%ebx),%edi     ; implicit exception: dispatches to 0x024cc489
+  0x024cc452: jae    0x024cc493
+  0x024cc458: movzwl 0xc(%ebx,%edi,2),%edi  ;*caload
+                                        ; - java.lang.String::hashCode@48 (line 1489)
+  0x024cc45d: mov    %eax,%esi
+  0x024cc45f: shl    $0x5,%eax
+  0x024cc462: sub    %esi,%eax
+  0x024cc464: add    %edi,%eax
+  0x024cc466: inc    %edx               ; OopMap{ebx=Oop [16]=Oop off=103}
+                                        ;*goto
+                                        ; - java.lang.String::hashCode@54 (line 1488)
+  0x024cc467: test   %eax,0x150100      ;   {poll}
+  0x024cc46d: mov    %ecx,%edi          ;*goto
+                                        ; - java.lang.String::hashCode@54 (line 1488)
+  0x024cc46f: mov    0x14(%esp),%esi
+  0x024cc473: cmp    %esi,%edx
+  0x024cc475: jl     0x024cc44c         ;*if_icmpge
+                                        ; - java.lang.String::hashCode@35 (line 1488)
+  0x024cc477: mov    0x10(%esp),%ecx
+  0x024cc47b: mov    %eax,0x14(%ecx)    ;*putfield hash
+                                        ; - java.lang.String::hashCode@59 (line 1491)
+  0x024cc47e: add    $0x28,%esp
+  0x024cc481: pop    %ebp
+  0x024cc482: test   %eax,0x150100      ;   {poll_return}
+  0x024cc488: ret    
+  0x024cc489: call   0x024ca0d0         ; OopMap{ebx=Oop [16]=Oop off=142}
+                                        ;*caload
+                                        ; - java.lang.String::hashCode@48 (line 1489)
+                                        ;   {runtime_call}
+  0x024cc48e: call   0x024ca0d0         ; OopMap{ebx=Oop [16]=Oop off=147}
+                                        ;*caload
+                                        ; - java.lang.String::hashCode@48 (line 1489)
+                                        ;   {runtime_call}
+  0x024cc493: mov    %edi,(%esp)
+  0x024cc496: call   0x024c9dd0         ; OopMap{ebx=Oop [16]=Oop off=155}
+                                        ;*caload
+                                        ; - java.lang.String::hashCode@48 (line 1489)
+                                        ;   {runtime_call}
+  0x024cc49b: nop    
+  0x024cc49c: nop    
+  0x024cc49d: mov    %fs:0x0,%esi
+  0x024cc4a5: mov    0xfffffff4(%esi),%esi
+  0x024cc4a8: mov    0x170(%esi),%eax
+  0x024cc4ae: movl   $0x0,0x170(%esi)
+  0x024cc4b8: movl   $0x0,0x174(%esi)
+  0x024cc4c2: add    $0x28,%esp
+  0x024cc4c5: pop    %ebp
+  0x024cc4c6: jmp    0x024c9c00         ;   {runtime_call}
+  0x024cc4cb: hlt    
+  0x024cc4cc: hlt    
+  0x024cc4cd: hlt    
+  0x024cc4ce: hlt    
+  0x024cc4cf: hlt    
+[Exception Handler]
+[Stub Code]
+  0x024cc4d0: call   0x024cb1c0         ;   {no_reloc}
+  0x024cc4d5: push   $0x6dab698c        ;   {external_word}
+  0x024cc4da: call   0x024cc4df
+  0x024cc4df: pusha  
+  0x024cc4e0: call   0x6d8b2a00         ;   {runtime_call}
+  0x024cc4e5: hlt    
+[Deopt Handler Code]
+  0x024cc4e6: push   $0x24cc4e6         ;   {section_word}
+  0x024cc4eb: jmp    0x0248d930         ;   {runtime_call}
+<nmethod compile_id='1' compiler='C1' entry='0x024cc400' size='916' address='0x024cc308' relocation_offset='208' code_offset='248' stub_offset='456' scopes_data_offset='492' scopes_pcs_offset='604' dependencies_offset='892' nul_chk_table_offset='896' oops_offset='488' method='java/lang/String hashCode ()I' bytes='64' count='209' backedge_count='947' iicount='0' stamp='0.039'/>
+<writer thread='8992'/>
+[Loaded sun.misc.URLClassPath$FileLoader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+<writer thread='8572'/>
+Decoding compiled method 0x024cc6c8:
+Code:
+[Disassembling for mach=&apos;i386&apos;]
+[Entry Point]
+  # {method} &apos;charAt&apos; &apos;(I)C&apos; in &apos;java/lang/String&apos;
+  # this:     ecx       = &apos;java/lang/String&apos;
+  # parm0:    edx       = int
+  #           [sp+0x20]  (sp of caller)
+  0x024cc7d0: nop    
+  0x024cc7d1: nop    
+  0x024cc7d2: nop    
+  0x024cc7d3: nop    
+  0x024cc7d4: nop    
+  0x024cc7d5: nop    
+  0x024cc7d6: nop    
+  0x024cc7d7: cmp    0x4(%ecx),%eax
+  0x024cc7da: jne    0x0248cd40         ;   {runtime_call}
+[Verified Entry Point]
+  0x024cc7e0: mov    %eax,0xffffd000(%esp)
+  0x024cc7e7: push   %ebp
+  0x024cc7e8: sub    $0x18,%esp
+  0x024cc7eb: mov    %edx,%esi          ;*iload_1
+                                        ; - java.lang.String::charAt@0 (line 685)
+  0x024cc7ed: cmp    $0x0,%esi
+  0x024cc7f0: jl     0x024cc822         ;*iflt
+                                        ; - java.lang.String::charAt@1 (line 685)
+  0x024cc7f6: mov    0x10(%ecx),%eax    ;*getfield count
+                                        ; - java.lang.String::charAt@6 (line 685)
+  0x024cc7f9: cmp    %eax,%esi
+  0x024cc7fb: jge    0x024cc822         ;*if_icmplt
+                                        ; - java.lang.String::charAt@9 (line 685)
+  0x024cc801: mov    0x8(%ecx),%eax     ;*getfield value
+                                        ; - java.lang.String::charAt@22 (line 688)
+  0x024cc804: mov    0xc(%ecx),%edx     ;*getfield offset
+                                        ; - java.lang.String::charAt@27 (line 688)
+  0x024cc807: add    %esi,%edx
+  0x024cc809: cmp    0x8(%eax),%edx     ; implicit exception: dispatches to 0x024cc849
+  0x024cc80c: jae    0x024cc853
+  0x024cc812: movzwl 0xc(%eax,%edx,2),%eax  ;*caload
+                                        ; - java.lang.String::charAt@31 (line 688)
+  0x024cc817: add    $0x18,%esp
+  0x024cc81a: pop    %ebp
+  0x024cc81b: test   %eax,0x150100      ;   {poll_return}
+  0x024cc821: ret                       ;*ireturn
+                                        ; - java.lang.String::charAt@32 (line 688)
+  0x024cc822: nopw   0x0(%eax,%eax,1)
+  0x024cc828: jmp    0x024cc880         ;   {no_reloc}
+  0x024cc82d: jmp    0x024cc88a         ;*new  ; - java.lang.String::charAt@12 (line 686)
+  0x024cc832: mov    %esi,%edx
+  0x024cc834: mov    %eax,%ecx          ;*invokespecial &lt;init&gt;
+                                        ; - java.lang.String::charAt@17 (line 686)
+  0x024cc836: mov    %eax,0x10(%esp)
+  0x024cc83a: nop    
+  0x024cc83b: call   0x0248cf40         ; OopMap{[16]=Oop off=112}
+                                        ;*invokespecial &lt;init&gt;
+                                        ; - java.lang.String::charAt@17 (line 686)
+                                        ;   {optimized virtual_call}
+  0x024cc840: mov    0x10(%esp),%eax
+  0x024cc844: jmp    0x024cc8ba
+  0x024cc849: call   0x024ca0d0         ; OopMap{eax=Oop off=126}
+                                        ;*caload
+                                        ; - java.lang.String::charAt@31 (line 688)
+                                        ;   {runtime_call}
+  0x024cc84e: call   0x024ca0d0         ; OopMap{eax=Oop off=131}
+                                        ;*caload
+                                        ; - java.lang.String::charAt@31 (line 688)
+                                        ;   {runtime_call}
+  0x024cc853: mov    %edx,(%esp)
+  0x024cc856: call   0x024c9dd0         ; OopMap{eax=Oop off=139}
+                                        ;*caload
+                                        ; - java.lang.String::charAt@31 (line 688)
+                                        ;   {runtime_call}
+  0x024cc85b: mov    $0x0,%edx          ;   {oop(NULL)}
+  0x024cc860: push   %eax
+  0x024cc861: mov    %fs:0x0,%eax
+  0x024cc869: mov    0xfffffff4(%eax),%eax
+  0x024cc86c: cmp    0xe8(%edx),%eax
+  0x024cc872: pop    %eax
+  0x024cc873: jne    0x024cc880
+  0x024cc879: jmp    0x024cc82d
+  0x024cc87b: mov    $0x5202500,%eax
+  0x024cc880: call   0x024cbd40         ; OopMap{off=181}
+                                        ;*new  ; - java.lang.String::charAt@12 (line 686)
+                                        ;   {runtime_call}
+  0x024cc885: jmp    0x024cc828
+  0x024cc887: nop    
+  0x024cc888: nop    
+  0x024cc889: nop    
+  0x024cc88a: mov    %edx,%edx
+  0x024cc88c: call   0x024ca300         ; OopMap{off=193}
+                                        ;*new  ; - java.lang.String::charAt@12 (line 686)
+                                        ;   {runtime_call}
+  0x024cc891: jmp    0x024cc832
+  0x024cc893: nop    
+  0x024cc894: nop    
+  0x024cc895: mov    %fs:0x0,%esi
+  0x024cc89d: mov    0xfffffff4(%esi),%esi
+  0x024cc8a0: mov    0x170(%esi),%eax
+  0x024cc8a6: movl   $0x0,0x170(%esi)
+  0x024cc8b0: movl   $0x0,0x174(%esi)
+  0x024cc8ba: add    $0x18,%esp
+  0x024cc8bd: pop    %ebp
+  0x024cc8be: jmp    0x024c9c00         ;   {runtime_call}
+  0x024cc8c3: hlt    
+  0x024cc8c4: hlt    
+  0x024cc8c5: hlt    
+  0x024cc8c6: hlt    
+  0x024cc8c7: hlt    
+  0x024cc8c8: hlt    
+  0x024cc8c9: hlt    
+  0x024cc8ca: hlt    
+  0x024cc8cb: hlt    
+  0x024cc8cc: hlt    
+  0x024cc8cd: hlt    
+  0x024cc8ce: hlt    
+  0x024cc8cf: hlt    
+[Stub Code]
+  0x024cc8d0: nop                       ;   {no_reloc}
+  0x024cc8d1: nop    
+  0x024cc8d2: mov    $0x0,%ebx          ;   {static_stub}
+  0x024cc8d7: jmp    0x024cc8d7         ;   {runtime_call}
+[Exception Handler]
+  0x024cc8dc: call   0x024cb1c0         ;   {runtime_call}
+  0x024cc8e1: push   $0x6dab698c        ;   {external_word}
+  0x024cc8e6: call   0x024cc8eb
+  0x024cc8eb: pusha  
+  0x024cc8ec: call   0x6d8b2a00         ;   {runtime_call}
+  0x024cc8f1: hlt    
+[Deopt Handler Code]
+  0x024cc8f2: push   $0x24cc8f2         ;   {section_word}
+  0x024cc8f7: jmp    0x0248d930         ;   {runtime_call}
+<nmethod compile_id='2' compiler='C1' entry='0x024cc7d0' size='976' address='0x024cc6c8' relocation_offset='208' code_offset='264' stub_offset='520' scopes_data_offset='568' scopes_pcs_offset='664' dependencies_offset='952' nul_chk_table_offset='956' oops_offset='564' method='java/lang/String charAt (I)C' bytes='33' count='1057' backedge_count='1' iicount='0' stamp='0.041'/>
+<writer thread='8992'/>
+[Loaded sun.misc.Resource from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$FileLoader$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.nio.ByteBuffered from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.Permissions from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.URLConnection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.net.www.URLConnection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.FileURLConnection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.ContentHandler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.net.UnknownContentHandler from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.net.www.MessageHeader from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FilePermission from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FilePermission$1 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.Policy from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.security.provider.PolicyFile from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.Policy$UnsupportedEmptyCollection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.io.FilePermissionCollection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.AllPermission from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.UnresolvedPermission from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.BasicPermissionCollection from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded sun.misc.JavaSecurityProtectionDomainAccess from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$2 from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$Key from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded java.security.Principal from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+[Loaded DoubleCheckTest from file:/C:/temp/javacert/threads/]
+[Loaded java.lang.InterruptedException from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+<task_queued compile_id='3' method='java/lang/String indexOf (II)I' bytes='151' count='102' backedge_count='750' iicount='0' stamp='0.044' comment='count' hot_count='102'/>
+[Loaded DoubleCheckTest$ObjectHolder from file:/C:/temp/javacert/threads/]
+<writer thread='8572'/>
+Decoding compiled method 0x024ccac8:
+Code:
+[Disassembling for mach=&apos;i386&apos;]
+[Entry Point]
+  # {method} &apos;indexOf&apos; &apos;(II)I&apos; in &apos;java/lang/String&apos;
+  # this:     ecx       = &apos;java/lang/String&apos;
+  # parm0:    edx       = int
+  # parm1:    [sp+0x30]   = int  (sp of caller)
+  0x024ccbf0: nop    
+  0x024ccbf1: nop    
+  0x024ccbf2: nop    
+  0x024ccbf3: nop    
+  0x024ccbf4: nop    
+  0x024ccbf5: nop    
+  0x024ccbf6: nop    
+  0x024ccbf7: cmp    0x4(%ecx),%eax
+  0x024ccbfa: jne    0x0248cd40         ;   {runtime_call}
+[Verified Entry Point]
+  0x024ccc00: mov    %eax,0xffffd000(%esp)
+  0x024ccc07: push   %ebp
+  0x024ccc08: sub    $0x28,%esp         ;*aload_0
+                                        ; - java.lang.String::indexOf@0 (line 1564)
+  0x024ccc0b: mov    0x30(%esp),%esi
+  0x024ccc0f: mov    0xc(%ecx),%edi     ;*getfield offset
+                                        ; - java.lang.String::indexOf@1 (line 1564)
+  0x024ccc12: mov    %edi,0x14(%esp)
+  0x024ccc16: mov    0x10(%ecx),%ebx    ;*getfield count
+                                        ; - java.lang.String::indexOf@5 (line 1564)
+  0x024ccc19: mov    %ebx,%eax
+  0x024ccc1b: add    %edi,%eax
+  0x024ccc1d: mov    %eax,0x10(%esp)
+  0x024ccc21: mov    0x8(%ecx),%eax     ;*getfield value
+                                        ; - java.lang.String::indexOf@11 (line 1565)
+  0x024ccc24: cmp    $0x0,%esi
+  0x024ccc27: jge    0x024ccc37         ;*ifge
+                                        ; - java.lang.String::indexOf@17 (line 1567)
+  0x024ccc2d: mov    $0x0,%esi
+  0x024ccc32: jmp    0x024ccc3f         ;*goto
+                                        ; - java.lang.String::indexOf@22 (line 1568)
+  0x024ccc37: cmp    %ebx,%esi
+  0x024ccc39: jge    0x024ccd5f         ;*if_icmplt
+                                        ; - java.lang.String::indexOf@30 (line 1569)
+  0x024ccc3f: mov    %edi,%ebx
+  0x024ccc41: add    %esi,%ebx
+  0x024ccc43: cmp    $0x10000,%edx
+  0x024ccc49: mov    0x10(%esp),%esi
+  0x024ccc4d: jge    0x024ccc7f
+  0x024ccc53: jmp    0x024ccc75         ;*if_icmpge
+                                        ; - java.lang.String::indexOf@46 (line 1575)
+  0x024ccc58: cmp    0x8(%eax),%ebx     ; implicit exception: dispatches to 0x024ccd6f
+  0x024ccc5b: jae    0x024ccd79
+  0x024ccc61: movzwl 0xc(%eax,%ebx,2),%edi  ;*caload
+                                        ; - java.lang.String::indexOf@59 (line 1579)
+  0x024ccc66: cmp    %edx,%edi
+  0x024ccc68: je     0x024ccd3c         ;*if_icmpne
+                                        ; - java.lang.String::indexOf@61 (line 1579)
+  0x024ccc6e: inc    %ebx               ; OopMap{ecx=Oop eax=Oop off=127}
+                                        ;*goto
+                                        ; - java.lang.String::indexOf@75 (line 1578)
+  0x024ccc6f: test   %eax,0x150100      ;*goto
+                                        ; - java.lang.String::indexOf@75 (line 1578)
+                                        ;   {poll}
+  0x024ccc75: cmp    %esi,%ebx
+  0x024ccc77: jge    0x024ccd4f
+  0x024ccc7d: jmp    0x024ccc58         ;*if_icmpge
+                                        ; - java.lang.String::indexOf@52 (line 1578)
+  0x024ccc7f: cmp    $0x10ffff,%edx
+  0x024ccc85: jg     0x024ccd2c         ;*if_icmpgt
+                                        ; - java.lang.String::indexOf@83 (line 1586)
+  0x024ccc8b: mov    %ebx,0x18(%esp)
+  0x024ccc8f: mov    %eax,0x1c(%esp)
+  0x024ccc93: mov    %ecx,0x20(%esp)
+  0x024ccc97: mov    %edx,%ecx          ;*invokestatic toChars
+                                        ; - java.lang.String::indexOf@87 (line 1588)
+  0x024ccc99: nop    
+  0x024ccc9a: nop    
+  0x024ccc9b: call   0x0248d340         ; OopMap{[32]=Oop [28]=Oop off=176}
+                                        ;*invokestatic toChars
+                                        ; - java.lang.String::indexOf@87 (line 1588)
+                                        ;   {static_call}
+  0x024ccca0: mov    0x18(%esp),%ebx    ;*astore
+                                        ; - java.lang.String::indexOf@90 (line 1588)
+  0x024ccca4: mov    0x1c(%esp),%edi
+  0x024ccca8: mov    0x10(%esp),%esi
+  0x024cccac: cmp    %esi,%ebx
+  0x024cccae: jge    0x024ccd2c         ;*if_icmpge
+                                        ; - java.lang.String::indexOf@95 (line 1589)
+  0x024cccb4: cmp    0x8(%edi),%ebx     ; implicit exception: dispatches to 0x024ccd81
+  0x024cccb7: jae    0x024ccd8b
+  0x024cccbd: movzwl 0xc(%edi,%ebx,2),%edx  ;*caload
+                                        ; - java.lang.String::indexOf@102 (line 1590)
+  0x024cccc2: cmpl   $0x0,0x8(%eax)     ; implicit exception: dispatches to 0x024ccd93
+  0x024cccc9: jbe    0x024ccd9d
+  0x024ccccf: movzwl 0xc(%eax),%ecx     ;*caload
+                                        ; - java.lang.String::indexOf@106 (line 1590)
+  0x024cccd3: cmp    %ecx,%edx
+  0x024cccd5: jne    0x024ccd0d         ;*if_icmpne
+                                        ; - java.lang.String::indexOf@107 (line 1590)
+  0x024cccdb: mov    %ebx,%edx
+  0x024cccdd: inc    %edx
+  0x024cccde: cmp    %esi,%edx
+  0x024ccce0: je     0x024ccd2c         ;*if_icmpne
+                                        ; - java.lang.String::indexOf@115 (line 1591)
+  0x024ccce6: cmp    0x8(%edi),%edx
+  0x024ccce9: jae    0x024ccda9
+  0x024cccef: movzwl 0xc(%edi,%edx,2),%edx  ;*caload
+                                        ; - java.lang.String::indexOf@127 (line 1594)
+  0x024cccf4: cmpl   $0x1,0x8(%eax)
+  0x024cccfb: jbe    0x024ccdb1
+  0x024ccd01: movzwl 0xe(%eax),%ecx     ;*caload
+                                        ; - java.lang.String::indexOf@131 (line 1594)
+  0x024ccd05: cmp    %ecx,%edx
+  0x024ccd07: je     0x024ccd16         ;*if_icmpne
+                                        ; - java.lang.String::indexOf@132 (line 1594)
+  0x024ccd0d: inc    %ebx               ; OopMap{[32]=Oop eax=Oop edi=Oop off=286}
+                                        ;*goto
+                                        ; - java.lang.String::indexOf@146 (line 1589)
+  0x024ccd0e: test   %eax,0x150100      ;   {poll}
+  0x024ccd14: jmp    0x024cccac         ;*goto
+                                        ; - java.lang.String::indexOf@146 (line 1589)
+  0x024ccd16: mov    0x20(%esp),%ecx
+  0x024ccd1a: mov    0xc(%ecx),%eax     ;*getfield offset
+                                        ; - java.lang.String::indexOf@138 (line 1595)
+  0x024ccd1d: sub    %eax,%ebx
+  0x024ccd1f: mov    %ebx,%eax
+  0x024ccd21: add    $0x28,%esp
+  0x024ccd24: pop    %ebp
+  0x024ccd25: test   %eax,0x150100      ;   {poll_return}
+  0x024ccd2b: ret                       ;*ireturn
+                                        ; - java.lang.String::indexOf@142 (line 1595)
+  0x024ccd2c: mov    $0xffffffff,%eax
+  0x024ccd31: add    $0x28,%esp
+  0x024ccd34: pop    %ebp
+  0x024ccd35: test   %eax,0x150100      ;   {poll_return}
+  0x024ccd3b: ret                       ;*ireturn
+                                        ; - java.lang.String::indexOf@150 (line 1600)
+  0x024ccd3c: mov    0x14(%esp),%edi
+  0x024ccd40: sub    %edi,%ebx
+  0x024ccd42: mov    %ebx,%eax
+  0x024ccd44: add    $0x28,%esp
+  0x024ccd47: pop    %ebp
+  0x024ccd48: test   %eax,0x150100      ;   {poll_return}
+  0x024ccd4e: ret                       ;*ireturn
+                                        ; - java.lang.String::indexOf@71 (line 1580)
+  0x024ccd4f: mov    $0xffffffff,%eax
+  0x024ccd54: add    $0x28,%esp
+  0x024ccd57: pop    %ebp
+  0x024ccd58: test   %eax,0x150100      ;   {poll_return}
+  0x024ccd5e: ret                       ;*ireturn
+                                        ; - java.lang.String::indexOf@79 (line 1583)
+  0x024ccd5f: mov    $0xffffffff,%eax
+  0x024ccd64: add    $0x28,%esp
+  0x024ccd67: pop    %ebp
+  0x024ccd68: test   %eax,0x150100      ;   {poll_return}
+  0x024ccd6e: ret    
+  0x024ccd6f: call   0x024ca0d0         ; OopMap{ecx=Oop eax=Oop off=388}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@59 (line 1579)
+                                        ;   {runtime_call}
+  0x024ccd74: call   0x024ca0d0         ; OopMap{ecx=Oop eax=Oop off=393}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@59 (line 1579)
+                                        ;   {runtime_call}
+  0x024ccd79: mov    %ebx,(%esp)
+  0x024ccd7c: call   0x024c9dd0         ; OopMap{ecx=Oop eax=Oop off=401}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@59 (line 1579)
+                                        ;   {runtime_call}
+  0x024ccd81: call   0x024ca0d0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=406}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@102 (line 1590)
+                                        ;   {runtime_call}
+  0x024ccd86: call   0x024ca0d0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=411}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@102 (line 1590)
+                                        ;   {runtime_call}
+  0x024ccd8b: mov    %ebx,(%esp)
+  0x024ccd8e: call   0x024c9dd0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=419}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@102 (line 1590)
+                                        ;   {runtime_call}
+  0x024ccd93: call   0x024ca0d0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=424}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@106 (line 1590)
+                                        ;   {runtime_call}
+  0x024ccd98: call   0x024ca0d0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=429}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@106 (line 1590)
+                                        ;   {runtime_call}
+  0x024ccd9d: movl   $0x0,(%esp)
+  0x024ccda4: call   0x024c9dd0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=441}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@106 (line 1590)
+                                        ;   {runtime_call}
+  0x024ccda9: mov    %edx,(%esp)
+  0x024ccdac: call   0x024c9dd0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=449}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@127 (line 1594)
+                                        ;   {runtime_call}
+  0x024ccdb1: movl   $0x1,(%esp)
+  0x024ccdb8: call   0x024c9dd0         ; OopMap{[32]=Oop eax=Oop edi=Oop off=461}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@131 (line 1594)
+                                        ;   {runtime_call}
+  0x024ccdbd: nop    
+  0x024ccdbe: nop    
+  0x024ccdbf: mov    %fs:0x0,%esi
+  0x024ccdc7: mov    0xfffffff4(%esi),%esi
+  0x024ccdca: mov    0x170(%esi),%eax
+  0x024ccdd0: movl   $0x0,0x170(%esi)
+  0x024ccdda: movl   $0x0,0x174(%esi)
+  0x024ccde4: add    $0x28,%esp
+  0x024ccde7: pop    %ebp
+  0x024ccde8: jmp    0x024c9c00         ;   {runtime_call}
+  0x024ccded: hlt    
+  0x024ccdee: hlt    
+  0x024ccdef: hlt    
+[Stub Code]
+  0x024ccdf0: nop                       ;   {no_reloc}
+  0x024ccdf1: nop    
+  0x024ccdf2: mov    $0x0,%ebx          ;   {static_stub}
+  0x024ccdf7: jmp    0x024ccdf7         ;   {runtime_call}
+[Exception Handler]
+  0x024ccdfc: call   0x024cb1c0         ;   {runtime_call}
+  0x024cce01: push   $0x6dab698c        ;   {external_word}
+  0x024cce06: call   0x024cce0b
+  0x024cce0b: pusha  
+  0x024cce0c: call   0x6d8b2a00         ;   {runtime_call}
+  0x024cce11: hlt    
+[Deopt Handler Code]
+  0x024cce12: push   $0x24cce12         ;   {section_word}
+  0x024cce17: jmp    0x0248d930         ;   {runtime_call}
+<nmethod compile_id='3' compiler='C1' entry='0x024ccbf0' size='1908' address='0x024ccac8' relocation_offset='208' code_offset='296' stub_offset='808' scopes_data_offset='856' scopes_pcs_offset='1132' dependencies_offset='1852' nul_chk_table_offset='1856' oops_offset='852' method='java/lang/String indexOf (II)I' bytes='151' count='112' backedge_count='980' iicount='0' stamp='0.048'/>
+<writer thread='8992'/>
+[Loaded DoubleCheckTest$TestThread from file:/C:/temp/javacert/threads/]
+<writer thread='11436'/>
+<task_queued compile_id='4' method='java/lang/String indexOf ([CII[CIII)I' bytes='166' count='68' backedge_count='750' iicount='0' stamp='0.049' comment='count' hot_count='68'/>
+[Loaded DoubleCheckTest$Singleton from file:/C:/temp/javacert/threads/]
+<writer thread='8572'/>
+Decoding compiled method 0x024cd248:
+Code:
+[Disassembling for mach=&apos;i386&apos;]
+[Entry Point]
+[Verified Entry Point]
+  # {method} &apos;indexOf&apos; &apos;([CII[CIII)I&apos; in &apos;java/lang/String&apos;
+  # parm0:    ecx       = &apos;[C&apos;
+  # parm1:    edx       = int
+  # parm2:    [sp+0x40]   = int
+<writer thread='8992'/>
+[Loaded java.lang.Shutdown from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+<writer thread='8572'/>
+  (sp of caller)
+  # parm3:    [sp+0x44]   = &apos;[C&apos;
+  # parm4:    [sp+0x48]   = int
+  # parm5:    [sp+0x4c]   = int
+  # parm6:    [sp+0x50]   = int
+  0x024cd360: mov    %eax,0xffffd000(%esp)
+  0x024cd367: push   %ebp
+  0x024cd368: sub    $0x38,%esp         ;*iload
+                                        ; - java.lang.String::indexOf@0 (line 1753)
+  0x024cd36b: mov    %edx,0x18(%esp)
+  0x024cd36f: mov    0x50(%esp),%eax
+  0x024cd373: mov    0x40(%esp),%esi
+  0x024cd377: cmp    %esi,%eax
+  0x024cd379: jge    0x024cd4dc         ;*if_icmplt
+                                        ; - java.lang.String::indexOf@3 (line 1753)
+  0x024cd37f: cmp    $0x0,%eax
+  0x024cd382: jge    0x024cd38d         ;*ifge
+                                        ; - java.lang.String::indexOf@19 (line 1756)
+  0x024cd388: mov    $0x0,%eax          ;*istore
+                                        ; - java.lang.String::indexOf@23 (line 1757)
+  0x024cd38d: mov    0x4c(%esp),%edi
+  0x024cd391: cmp    $0x0,%edi
+  0x024cd394: je     0x024cd4d1         ;*ifne
+                                        ; - java.lang.String::indexOf@27 (line 1759)
+  0x024cd39a: mov    %eax,0x14(%esp)
+  0x024cd39e: mov    0x48(%esp),%ebx
+  0x024cd3a2: mov    %ecx,0x10(%esp)
+  0x024cd3a6: mov    0x44(%esp),%ecx
+  0x024cd3aa: cmp    0x8(%ecx),%ebx     ; implicit exception: dispatches to 0x024cd4f6
+  0x024cd3ad: jae    0x024cd500
+  0x024cd3b3: movzwl 0xc(%ecx,%ebx,2),%eax  ;*caload
+                                        ; - java.lang.String::indexOf@36 (line 1763)
+  0x024cd3b8: mov    %eax,0x20(%esp)
+  0x024cd3bc: sub    %edi,%esi
+  0x024cd3be: add    %edx,%esi
+  0x024cd3c0: mov    %esi,0x1c(%esp)
+  0x024cd3c4: mov    0x14(%esp),%ecx
+  0x024cd3c8: add    %edx,%ecx
+  0x024cd3ca: mov    0x10(%esp),%edx
+  0x024cd3ce: xchg   %ax,%ax
+  0x024cd3d0: cmp    %esi,%ecx
+  0x024cd3d2: jg     0x024cd4c1         ;*if_icmpgt
+                                        ; - java.lang.String::indexOf@57 (line 1766)
+  0x024cd3d8: cmp    0x8(%edx),%ecx     ; implicit exception: dispatches to 0x024cd508
+  0x024cd3db: jae    0x024cd512
+  0x024cd3e1: movzwl 0xc(%edx,%ecx,2),%ebx  ;*caload
+                                        ; - java.lang.String::indexOf@63 (line 1768)
+  0x024cd3e6: cmp    %eax,%ebx
+  0x024cd3e8: je     0x024cd415
+  0x024cd3ee: jmp    0x024cd410         ;*if_icmpeq
+                                        ; - java.lang.String::indexOf@66 (line 1768)
+  0x024cd3f3: nop    
+  0x024cd3f4: cmp    0x8(%edx),%ecx
+  0x024cd3f7: jae    0x024cd51a
+  0x024cd3fd: movzwl 0xc(%edx,%ecx,2),%ebx  ;*caload
+                                        ; - java.lang.String::indexOf@82 (line 1769)
+  0x024cd402: cmp    %eax,%ebx
+  0x024cd404: je     0x024cd415         ; OopMap{edx=Oop [68]=Oop off=170}
+                                        ;*goto
+                                        ; - java.lang.String::indexOf@88 (line 1769)
+  0x024cd40a: test   %eax,0x150100      ;*goto
+                                        ; - java.lang.String::indexOf@88 (line 1769)
+                                        ;   {poll}
+  0x024cd410: inc    %ecx
+  0x024cd411: cmp    %esi,%ecx
+  0x024cd413: jle    0x024cd3f4         ;*if_icmpgt
+                                        ; - java.lang.String::indexOf@76 (line 1769)
+  0x024cd415: cmp    %esi,%ecx
+  0x024cd417: jle    0x024cd42a
+  0x024cd41d: mov    %ecx,0x24(%esp)
+  0x024cd421: mov    0x44(%esp),%eax
+  0x024cd425: jmp    0x024cd48e         ;*if_icmpgt
+                                        ; - java.lang.String::indexOf@95 (line 1773)
+  0x024cd42a: mov    %ecx,%ebx
+  0x024cd42c: inc    %ebx
+  0x024cd42d: mov    %ebx,%esi
+  0x024cd42f: add    %edi,%esi
+  0x024cd431: dec    %esi
+  0x024cd432: mov    %esi,0x28(%esp)
+  0x024cd436: mov    0x48(%esp),%edi
+  0x024cd43a: inc    %edi
+  0x024cd43b: mov    %ecx,0x24(%esp)
+  0x024cd43f: mov    0x44(%esp),%eax
+  0x024cd443: jmp    0x024cd478         ;*istore
+                                        ; - java.lang.String::indexOf@117 (line 1776)
+  0x024cd448: cmp    0x8(%edx),%ebx
+  0x024cd44b: jae    0x024cd522
+  0x024cd451: movzwl 0xc(%edx,%ebx,2),%ecx  ;*caload
+                                        ; - java.lang.String::indexOf@129 (line 1776)
+  0x024cd456: cmp    0x8(%eax),%edi
+  0x024cd459: jae    0x024cd52a
+  0x024cd45f: movzwl 0xc(%eax,%edi,2),%esi  ;*caload
+                                        ; - java.lang.String::indexOf@133 (line 1776)
+  0x024cd464: cmp    %esi,%ecx
+  0x024cd466: jne    0x024cd482         ;*if_icmpne
+                                        ; - java.lang.String::indexOf@134 (line 1776)
+  0x024cd46c: inc    %ebx
+  0x024cd46d: inc    %edi               ; OopMap{edx=Oop eax=Oop [68]=Oop off=270}
+                                        ;*goto
+                                        ; - java.lang.String::indexOf@143 (line 1777)
+  0x024cd46e: test   %eax,0x150100      ;*goto
+                                        ; - java.lang.String::indexOf@143 (line 1777)
+                                        ;   {poll}
+  0x024cd474: mov    0x28(%esp),%esi
+  0x024cd478: cmp    %esi,%ebx
+  0x024cd47a: jge    0x024cd486
+  0x024cd480: jmp    0x024cd448         ;*if_icmpge
+                                        ; - java.lang.String::indexOf@123 (line 1776)
+  0x024cd482: mov    0x28(%esp),%esi
+  0x024cd486: cmp    %esi,%ebx
+  0x024cd488: je     0x024cd4aa         ;*if_icmpne
+                                        ; - java.lang.String::indexOf@150 (line 1779)
+  0x024cd48e: mov    0x24(%esp),%ecx
+  0x024cd492: inc    %ecx               ; OopMap{edx=Oop eax=Oop [68]=Oop off=307}
+                                        ;*goto
+                                        ; - java.lang.String::indexOf@161 (line 1766)
+  0x024cd493: test   %eax,0x150100      ;   {poll}
+  0x024cd499: mov    0x1c(%esp),%esi
+  0x024cd49d: mov    0x4c(%esp),%edi
+  0x024cd4a1: mov    0x20(%esp),%eax
+  0x024cd4a5: jmp    0x024cd3d0         ;*goto
+                                        ; - java.lang.String::indexOf@161 (line 1766)
+  0x024cd4aa: mov    0x24(%esp),%ecx
+  0x024cd4ae: mov    0x18(%esp),%edx
+  0x024cd4b2: sub    %edx,%ecx
+  0x024cd4b4: mov    %ecx,%eax
+  0x024cd4b6: add    $0x38,%esp
+  0x024cd4b9: pop    %ebp
+  0x024cd4ba: test   %eax,0x150100      ;   {poll_return}
+  0x024cd4c0: ret                       ;*ireturn
+                                        ; - java.lang.String::indexOf@157 (line 1781)
+  0x024cd4c1: mov    $0xffffffff,%eax
+  0x024cd4c6: add    $0x38,%esp
+  0x024cd4c9: pop    %ebp
+  0x024cd4ca: test   %eax,0x150100      ;   {poll_return}
+  0x024cd4d0: ret                       ;*ireturn
+                                        ; - java.lang.String::indexOf@165 (line 1785)
+  0x024cd4d1: add    $0x38,%esp
+  0x024cd4d4: pop    %ebp
+  0x024cd4d5: test   %eax,0x150100      ;   {poll_return}
+  0x024cd4db: ret                       ;*ireturn
+                                        ; - java.lang.String::indexOf@32 (line 1760)
+  0x024cd4dc: mov    0x4c(%esp),%edi
+  0x024cd4e0: cmp    $0x0,%edi
+  0x024cd4e3: mov    $0xffffffff,%eax
+  0x024cd4e8: cmove  %esi,%eax
+  0x024cd4eb: add    $0x38,%esp
+  0x024cd4ee: pop    %ebp
+  0x024cd4ef: test   %eax,0x150100      ;   {poll_return}
+  0x024cd4f5: ret    
+  0x024cd4f6: call   0x024ca0d0         ; OopMap{ecx=Oop [68]=Oop [16]=Oop off=411}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@36 (line 1763)
+                                        ;   {runtime_call}
+  0x024cd4fb: call   0x024ca0d0         ; OopMap{ecx=Oop [68]=Oop [16]=Oop off=416}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@36 (line 1763)
+                                        ;   {runtime_call}
+  0x024cd500: mov    %ebx,(%esp)
+  0x024cd503: call   0x024c9dd0         ; OopMap{ecx=Oop [68]=Oop [16]=Oop off=424}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@36 (line 1763)
+                                        ;   {runtime_call}
+  0x024cd508: call   0x024ca0d0         ; OopMap{edx=Oop [68]=Oop off=429}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@63 (line 1768)
+                                        ;   {runtime_call}
+  0x024cd50d: call   0x024ca0d0         ; OopMap{edx=Oop [68]=Oop off=434}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@63 (line 1768)
+                                        ;   {runtime_call}
+  0x024cd512: mov    %ecx,(%esp)
+  0x024cd515: call   0x024c9dd0         ; OopMap{edx=Oop [68]=Oop off=442}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@63 (line 1768)
+                                        ;   {runtime_call}
+  0x024cd51a: mov    %ecx,(%esp)
+  0x024cd51d: call   0x024c9dd0         ; OopMap{edx=Oop [68]=Oop off=450}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@82 (line 1769)
+                                        ;   {runtime_call}
+  0x024cd522: mov    %ebx,(%esp)
+  0x024cd525: call   0x024c9dd0         ; OopMap{edx=Oop eax=Oop [68]=Oop off=458}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@129 (line 1776)
+                                        ;   {runtime_call}
+  0x024cd52a: mov    %edi,(%esp)
+  0x024cd52d: call   0x024c9dd0         ; OopMap{edx=Oop eax=Oop [68]=Oop off=466}
+                                        ;*caload
+                                        ; - java.lang.String::indexOf@133 (line 1776)
+                                        ;   {runtime_call}
+  0x024cd532: nop    
+  0x024cd533: nop    
+  0x024cd534: mov    %fs:0x0,%esi
+  0x024cd53c: mov    0xfffffff4(%esi),%esi
+  0x024cd53f: mov    0x170(%esi),%eax
+  0x024cd545: movl   $0x0,0x170(%esi)
+  0x024cd54f: movl   $0x0,0x174(%esi)
+  0x024cd559: add    $0x38,%esp
+  0x024cd55c: pop    %ebp
+  0x024cd55d: jmp    0x024c9c00         ;   {runtime_call}
+  0x024cd562: hlt    
+  0x024cd563: hlt    
+  0x024cd564: hlt    
+  0x024cd565: hlt    
+  0x024cd566: hlt    
+  0x024cd567: hlt    
+  0x024cd568: hlt    
+  0x024cd569: hlt    
+  0x024cd56a: hlt    
+  0x024cd56b: hlt    
+  0x024cd56c: hlt    
+  0x024cd56d: hlt    
+  0x024cd56e: hlt    
+  0x024cd56f: hlt    
+[Exception Handler]
+[Stub Code]
+  0x024cd570: call   0x024cb1c0         ;   {no_reloc}
+  0x024cd575: push   $0x6dab698c        ;   {external_word}
+  0x024cd57a: call   0x024cd57f
+  0x024cd57f: pusha  
+  0x024cd580: call   0x6d8b2a00         ;   {runtime_call}
+  0x024cd585: hlt    
+[Deopt Handler Code]
+  0x024cd586: push   $0x24cd586         ;   {section_word}
+  0x024cd58b: jmp    0x0248d930         ;   {runtime_call}
+<nmethod compile_id='4' compiler='C1' entry='0x024cd360' size='1816' address='0x024cd248' relocation_offset='208' code_offset='280' stub_offset='808' scopes_data_offset='844' scopes_pcs_offset='1168' dependencies_offset='1776' nul_chk_table_offset='1780' oops_offset='840' method='java/lang/String indexOf ([CII[CIII)I' bytes='166' count='70' backedge_count='880' iicount='0' stamp='0.053'/>
+<writer thread='8992'/>
+[Loaded java.lang.Shutdown$Lock from C:\Users\arakelyanaa\Java\jdk1.6.0_23\jre\lib\rt.jar]
+<writer thread='9848'/>
+<destroy_vm stamp='0.053'/>
+<tty_done stamp='0.054'/>
+</tty>
+<compilation_log thread='8572'>
+<start_compile_thread thread='8572' process='7496' stamp='0.037'/>
+<task compile_id='1' method='java/lang/String hashCode ()I' bytes='64' count='195' backedge_count='925' iicount='0' stamp='0.037'>
+<task_done success='1' nmsize='240' count='209' backedge_count='947' stamp='0.039'/>
+</task>
+<task compile_id='2' method='java/lang/String charAt (I)C' bytes='33' count='1057' backedge_count='1' iicount='0' stamp='0.039'>
+<task_done success='1' nmsize='300' count='1057' backedge_count='1' stamp='0.041'/>
+</task>
+<task compile_id='3' method='java/lang/String indexOf (II)I' bytes='151' count='107' backedge_count='882' iicount='0' stamp='0.044'>
+<task_done success='1' nmsize='556' count='112' backedge_count='980' stamp='0.048'/>
+</task>
+<task compile_id='4' method='java/lang/String indexOf ([CII[CIII)I' bytes='166' count='70' backedge_count='880' iicount='0' stamp='0.049'>
+<task_done success='1' nmsize='560' count='70' backedge_count='880' stamp='0.053'/>
+</task>
+</compilation_log>
+<hotspot_log_done stamp='0.054'/>
+</hotspot_log>

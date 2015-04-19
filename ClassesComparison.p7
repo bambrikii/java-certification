@@ -1,0 +1,141 @@
+Classfile /C:/Documents and Settings/ArakelyanAA/workspace/5/ClassesComparison.class
+  Last modified 05.06.2013; size 736 bytes
+  MD5 checksum decd6d2336626bab3f1e15fa98c236f3
+  Compiled from "ClassesComparison.java"
+public class ClassesComparison
+  SourceFile: "ClassesComparison.java"
+  minor version: 0
+  major version: 51
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #10.#24        //  java/lang/Object."<init>":()V
+   #2 = Class              #25            //  ClassOne
+   #3 = Methodref          #2.#24         //  ClassOne."<init>":()V
+   #4 = Class              #26            //  ClassTwo
+   #5 = Methodref          #4.#24         //  ClassTwo."<init>":()V
+   #6 = Fieldref           #27.#28        //  java/lang/System.out:Ljava/io/PrintStream;
+   #7 = Methodref          #10.#29        //  java/lang/Object.getClass:()Ljava/lang/Class;
+   #8 = Methodref          #30.#31        //  java/io/PrintStream.println:(Z)V
+   #9 = Class              #32            //  ClassesComparison
+  #10 = Class              #33            //  java/lang/Object
+  #11 = Utf8               <init>
+  #12 = Utf8               ()V
+  #13 = Utf8               Code
+  #14 = Utf8               LineNumberTable
+  #15 = Utf8               main
+  #16 = Utf8               ([Ljava/lang/String;)V
+  #17 = Utf8               StackMapTable
+  #18 = Class              #34            //  "[Ljava/lang/String;"
+  #19 = Class              #25            //  ClassOne
+  #20 = Class              #26            //  ClassTwo
+  #21 = Class              #35            //  java/io/PrintStream
+  #22 = Utf8               SourceFile
+  #23 = Utf8               ClassesComparison.java
+  #24 = NameAndType        #11:#12        //  "<init>":()V
+  #25 = Utf8               ClassOne
+  #26 = Utf8               ClassTwo
+  #27 = Class              #36            //  java/lang/System
+  #28 = NameAndType        #37:#38        //  out:Ljava/io/PrintStream;
+  #29 = NameAndType        #39:#40        //  getClass:()Ljava/lang/Class;
+  #30 = Class              #35            //  java/io/PrintStream
+  #31 = NameAndType        #41:#42        //  println:(Z)V
+  #32 = Utf8               ClassesComparison
+  #33 = Utf8               java/lang/Object
+  #34 = Utf8               [Ljava/lang/String;
+  #35 = Utf8               java/io/PrintStream
+  #36 = Utf8               java/lang/System
+  #37 = Utf8               out
+  #38 = Utf8               Ljava/io/PrintStream;
+  #39 = Utf8               getClass
+  #40 = Utf8               ()Ljava/lang/Class;
+  #41 = Utf8               println
+  #42 = Utf8               (Z)V
+{
+  public ClassesComparison();
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0       
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return        
+      LineNumberTable:
+        line 1: 0
+
+  public static void main(java.lang.String[]);
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=3, args_size=1
+         0: new           #2                  // class ClassOne
+         3: dup           
+         4: invokespecial #3                  // Method ClassOne."<init>":()V
+         7: astore_1      
+         8: new           #4                  // class ClassTwo
+        11: dup           
+        12: invokespecial #5                  // Method ClassTwo."<init>":()V
+        15: astore_2      
+        16: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        19: aload_1       
+        20: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        23: aload_2       
+        24: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        27: if_acmpne     34
+        30: iconst_1      
+        31: goto          35
+        34: iconst_0      
+        35: invokevirtual #8                  // Method java/io/PrintStream.println:(Z)V
+        38: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        41: aload_1       
+        42: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        45: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        48: aload_2       
+        49: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        52: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        55: if_acmpne     62
+        58: iconst_1      
+        59: goto          63
+        62: iconst_0      
+        63: invokevirtual #8                  // Method java/io/PrintStream.println:(Z)V
+        66: getstatic     #6                  // Field java/lang/System.out:Ljava/io/PrintStream;
+        69: aload_1       
+        70: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        73: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        76: aload_2       
+        77: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        80: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        83: invokevirtual #7                  // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        86: if_acmpne     93
+        89: iconst_1      
+        90: goto          94
+        93: iconst_0      
+        94: invokevirtual #8                  // Method java/io/PrintStream.println:(Z)V
+        97: return        
+      LineNumberTable:
+        line 3: 0
+        line 4: 8
+        line 13: 16
+        line 15: 38
+        line 16: 66
+        line 18: 97
+      StackMapTable: number_of_entries = 6
+           frame_type = 255 /* full_frame */
+          offset_delta = 34
+          locals = [ class "[Ljava/lang/String;", class ClassOne, class ClassTwo ]
+          stack = [ class java/io/PrintStream ]
+           frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class "[Ljava/lang/String;", class ClassOne, class ClassTwo ]
+          stack = [ class java/io/PrintStream, int ]
+           frame_type = 90 /* same_locals_1_stack_item */
+          stack = [ class java/io/PrintStream ]
+           frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class "[Ljava/lang/String;", class ClassOne, class ClassTwo ]
+          stack = [ class java/io/PrintStream, int ]
+           frame_type = 93 /* same_locals_1_stack_item */
+          stack = [ class java/io/PrintStream ]
+           frame_type = 255 /* full_frame */
+          offset_delta = 0
+          locals = [ class "[Ljava/lang/String;", class ClassOne, class ClassTwo ]
+          stack = [ class java/io/PrintStream, int ]
+
+}
