@@ -1,0 +1,5 @@
+find max substring occurrences using these parameters:
+
+6 - string length
+2 3 50 - min substring size, max substring size, substring count max limit
+ababab - string
