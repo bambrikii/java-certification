@@ -8,6 +8,12 @@ public class Test {
 	     +
 	     ++i); // line 7
 
+	System.out.println();
+
+	System.out.print(++i);
+
+	System.out.println();
+
 	System.out.print(x
 	     +
 	     ++i); // line 7
