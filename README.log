@@ -1,0 +1,56 @@
+- FileWriter(String, boolean) - constructor
+- Path.relativize();
+- Path.normalize();
+- Files.move(), StandardCopyOption.REPLACE_EXISTING, StandardCopyOpyion.ATOMIC_MOVE
+- If Files.move is called with StandardCopyOption.COPY_ATTRIBUTES an UnsupportedOperationException is thrown.
+- LinkOption.NOFOLLOW_LINKS
+- WatchService: WatchKey key = dir.register (watcher, ENTRY_CREATE, ENTRY_DELETE, ENTRY_MODIFY) ; - all platforms eq notification consistent.
+-> The Java Tutorials,Watching a Directory for Changes
+- Path.getName(location)
+
+- jdbc 3 compatible(not jdbc 4 compatible) drivers can be registered using META-INF/services/java.lang.Driver file.
+- JdbcRowSet, CachedRowSet, FilteredRowSet, WebRowSet
+- A Connection.rollback() method invocation rolls a transaction back to the last savepoint.
+- Thread.run() executes runnable.run()
+- livelock vs deadlock, starvation, race condition
+- monitor synchronized(new Object()) { ... } really works???
+- CopyOnWriteArrayList.iterator() ... .remove(obj) does not lead to ConcurrentModificationException (because remove(obj) is based on an array???)
+- ForkJoinTask ... .fork(), .compute(), .join()
+	(
+		should use compute() { compute() [+-*/] fork().join()},
+		not join + fork (leads to an infinite loop,
+		join() does not proceed until the task's result has been computed)
+	)
+	example: 
+		if (my portion of the work is small enough)
+			do the work directly
+		else
+			split my work into two pieces
+			invoke the two pieces and wait for the results
+- You cannot use a file to store a ResourceBundle. ResourceBundle.getBundle is using a resource name; it isn't called ResourceBundle for nothing.
+- SimpleDateFormat format: MMM, DD, etc...
+	M format : 2
+	MM format : 02
+	MMM format : Feb
+	MMMM format : February
+- ResourceBundle requires concrete bundle, otherwise: java.util.MissingResourceException: Can't find bundle for base name messageBundle, locale es_ES
+- NumberFormat initialization: get*Instance() factory methods.
+- ResourceBundle.getString("!!!STRING ARGUMENT!!!"), .getObject("!!!STRING ARGUMENT!!!")
+- cohesion
+- Language codes are defined by ISO 639.
+- ResourceBundle naming: <name>_langualge-code_COUNTRY-CODE.properties
+
+- Files.createFile(...), Files.setAttribute(file, "dos:hidden", true); TODO: static methods, working with DOS FS file attributes,
+- Default file system provider, DOS file system provider.
+    When using the default file system provider with a JVM running on a DOS-based file system... DOS file attributes can be read as a set in a single method call.
+    The methodreadAttributes() reads a file's attributes as a bulk operation.
+- Thread.join() throws InterruptedException;
+- aggregation, composition;
+- encapsulation, inheritance, polymorphism;
+    Loose coupling is achieved by means of a design that promotes single-responsibility and separation of concerns.
+    A loosely-coupled class can be consumed and tested independently of other (concrete) classes.
+- java.nio.file.SimpleFileVisitor, java.nio.file.PathMatcher, Files.walkFileTree(Path, FileVisitor);
+    FileSystems.getDefault().getPathMatcher("glob:*java"); // pattern...
+- JDBC: ResultSetMetaData rsmd = <ResultSet instance>.getMetaData();
+- low overhead, low-contention: ThreadLocalRandom
+
