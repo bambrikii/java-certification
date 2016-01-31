@@ -53,4 +53,7 @@
     FileSystems.getDefault().getPathMatcher("glob:*java"); // pattern...
 - JDBC: ResultSetMetaData rsmd = <ResultSet instance>.getMetaData();
 - low overhead, low-contention: ThreadLocalRandom
-
+- Map is a container implements Map;
+    interface SortedMap extends Map;
+    Hashtable implements Map;
+    List, Set implement Collection;
