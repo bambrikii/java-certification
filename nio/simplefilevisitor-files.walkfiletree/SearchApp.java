@@ -1,3 +1,8 @@
+import java.nio.*;
+import java.nio.file.*;
+import java.io.*;
+import java.nio.file.attribute.*;
+
 public class SearchApp extends SimpleFileVisitor<Path> {
     private final PathMatcher matcher;
     SearchApp() {
@@ -15,7 +20,8 @@ public class SearchApp extends SimpleFileVisitor<Path> {
     }
     public static void main(String[] args) throws IOException {
 	SearchApp obj = new SearchApp();
-	Files.walkFileTree(Paths.get("c:/_Workspace/OCP/src/examrest/Company/"), obj);
+	// Files.walkFileTree(Paths.get("c:/_Workspace/OCP/src/examrest/Company/"), obj);
+	Files.walkFileTree(Paths.get("./"), obj);
     }
 }
 
