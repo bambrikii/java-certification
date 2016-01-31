@@ -1,5 +1,5 @@
 interface Event {
-String getCategory();
+    String getCategory();
 }
 //public 
 class CueSports {
