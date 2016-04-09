@@ -1,0 +1,113 @@
+Classfile /home/asd/workspaceTEST/java-certification/functional-interfaces/default-methods/Predicate.class
+  Last modified Apr 9, 2016; size 923 bytes
+  MD5 checksum 7b388a55a354279ca6e2f2c76801e439
+  Compiled from "Predicate.java"
+public interface Predicate<T extends java.lang.Object>
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_INTERFACE, ACC_ABSTRACT
+Constant pool:
+   #1 = Class              #28            // java/lang/RuntimeException
+   #2 = Methodref          #1.#29         // java/lang/RuntimeException."<init>":()V
+   #3 = Class              #30            // Predicate
+   #4 = Class              #31            // java/lang/Object
+   #5 = Utf8               test
+   #6 = Utf8               (Ljava/lang/Object;)Z
+   #7 = Utf8               Signature
+   #8 = Utf8               (TT;)Z
+   #9 = Utf8               and
+  #10 = Utf8               (LPredicate;)LPredicate;
+  #11 = Utf8               Code
+  #12 = Utf8               LineNumberTable
+  #13 = Utf8               (LPredicate<-TT;>;)LPredicate<TT;>;
+  #14 = Utf8               negate
+  #15 = Utf8               ()LPredicate;
+  #16 = Utf8               ()LPredicate<TT;>;
+  #17 = Utf8               or
+  #18 = Utf8               isEqual
+  #19 = Utf8               (Ljava/lang/Object;)LPredicate;
+  #20 = Utf8               <T:Ljava/lang/Object;>(Ljava/lang/Object;)LPredicate<TT;>;
+  #21 = Utf8               of
+  #22 = Utf8               <T:Ljava/lang/Object;>(LPredicate<TT;>;)LPredicate<TT;>;
+  #23 = Utf8               <T:Ljava/lang/Object;>Ljava/lang/Object;
+  #24 = Utf8               SourceFile
+  #25 = Utf8               Predicate.java
+  #26 = Utf8               RuntimeVisibleAnnotations
+  #27 = Utf8               Ljava/lang/FunctionalInterface;
+  #28 = Utf8               java/lang/RuntimeException
+  #29 = NameAndType        #32:#33        // "<init>":()V
+  #30 = Utf8               Predicate
+  #31 = Utf8               java/lang/Object
+  #32 = Utf8               <init>
+  #33 = Utf8               ()V
+{
+  public abstract boolean test(T);
+    descriptor: (Ljava/lang/Object;)Z
+    flags: ACC_PUBLIC, ACC_ABSTRACT
+    Signature: #8                           // (TT;)Z
+
+  public Predicate<T> and(Predicate<? super T>);
+    descriptor: (LPredicate;)LPredicate;
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=2, args_size=2
+         0: aconst_null
+         1: areturn
+      LineNumberTable:
+        line 9: 0
+    Signature: #13                          // (LPredicate<-TT;>;)LPredicate<TT;>;
+
+  public Predicate<T> negate();
+    descriptor: ()LPredicate;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: new           #1                  // class java/lang/RuntimeException
+         3: dup
+         4: invokespecial #2                  // Method java/lang/RuntimeException."<init>":()V
+         7: athrow
+      LineNumberTable:
+        line 13: 0
+    Signature: #16                          // ()LPredicate<TT;>;
+
+  public Predicate<T> or(Predicate<? super T>);
+    descriptor: (LPredicate;)LPredicate;
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: new           #1                  // class java/lang/RuntimeException
+         3: dup
+         4: invokespecial #2                  // Method java/lang/RuntimeException."<init>":()V
+         7: athrow
+      LineNumberTable:
+        line 18: 0
+    Signature: #13                          // (LPredicate<-TT;>;)LPredicate<TT;>;
+
+  public static <T extends java.lang.Object> Predicate<T> isEqual(java.lang.Object);
+    descriptor: (Ljava/lang/Object;)LPredicate;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: new           #1                  // class java/lang/RuntimeException
+         3: dup
+         4: invokespecial #2                  // Method java/lang/RuntimeException."<init>":()V
+         7: athrow
+      LineNumberTable:
+        line 23: 0
+    Signature: #20                          // <T:Ljava/lang/Object;>(Ljava/lang/Object;)LPredicate<TT;>;
+
+  public static <T extends java.lang.Object> Predicate<T> of(Predicate<T>);
+    descriptor: (LPredicate;)LPredicate;
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: areturn
+      LineNumberTable:
+        line 33: 0
+    Signature: #22                          // <T:Ljava/lang/Object;>(LPredicate<TT;>;)LPredicate<TT;>;
+}
+Signature: #23                          // <T:Ljava/lang/Object;>Ljava/lang/Object;
+SourceFile: "Predicate.java"
+RuntimeVisibleAnnotations:
+  0: #27()
