@@ -1,0 +1,4 @@
+Class2.java:1: error: cyclic inheritance involving Class2
+public class Class2 extends Class1 {
+       ^
+1 error
