@@ -19,3 +19,9 @@ class Overload4_2 extends Overload4 {
 	return 0;
     }
 }
+
+abstract class Overload4_5 extends Overload4_2 {
+    abstract int method1(); // can override by abstract methods
+
+    abstract Integer method3(); // can override by abstract methods
+}
