@@ -1,0 +1,4 @@
+rootProject.name = "java-certification"
+
+include "classloaders:compile-and-load1"
+include "classloaders:java-security1"

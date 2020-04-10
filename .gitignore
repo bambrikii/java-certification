@@ -2,3 +2,7 @@
 *.iml
 **/*.class
 **/*.iml
+.idea
+out/
+build/
+.gradle/

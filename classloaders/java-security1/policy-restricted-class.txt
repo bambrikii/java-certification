@@ -1,0 +1,12 @@
+/* AUTOMATICALLY GENERATED ON Sat Apr 04 16:18:35 EDT 2020*/
+/* DO NOT EDIT */
+
+grant {
+  permission java.lang.RuntimePermission "createClassLoader";
+  permission java.net.SocketPermission "localhost:80", "accept, connect, listen, resolve";
+};
+
+grant codeBase "file:/home/your_user/classpath/some.jar" {
+    permission java.security.AllPermission;
+    permission com.example.q5003565.DeniedPermission "java.util.PropertyPermission:user.*:read";
+};

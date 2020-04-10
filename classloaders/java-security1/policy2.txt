@@ -1,0 +1,13 @@
+grant {
+    permission java.io.FilePermission "question.txt", "read";
+    permission java.io.FilePermission "answer.txt", "read";
+};
+
+grant {
+    permission java.io.FilePermission "question.txt", "read";
+};
+
+grant codeBase "file:${PROJECT_DIR}/*" {
+	permission java.io.FilePermission "question.txt", "read";
+	permission java.io.FilePermission "answer.txt", "read";
+};

@@ -1,0 +1,9 @@
+grant {
+    permission java.io.FilePermission "question.txt", "read";
+    permission java.io.FilePermission "answer.txt", "read";
+};
+
+#grant {
+#    permission java.util.PropertyPermission "intellij.debug.agent", "read";
+#};
+

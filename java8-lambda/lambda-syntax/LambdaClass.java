@@ -1,3 +1,5 @@
+import java.util.function.Predicate;
+
 public class LambdaClass {
     public static void main(String[] args) {
 	System.out.println(test(i -> i == 5));
