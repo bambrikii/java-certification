@@ -1,6 +1,6 @@
 Classfile /home/asd/workspaceExercises/java-certification/exceptions/multi-catch/MultiCatchBaseExceptions.class
-  Last modified Apr 23, 2023; size 840 bytes
-  SHA-256 checksum eead992ccf7bac8f69beef2d60471633f2d09719dba1a33c82ce77f1e6abd926
+  Last modified Apr 23, 2023; size 876 bytes
+  SHA-256 checksum 92f307e166dc3d06575f1623ffeaf440ea62bdbd6df44016841fa25634e53c50
   Compiled from "MultiCatchBaseExceptions.java"
 public class MultiCatchBaseExceptions
   minor version: 0
@@ -78,53 +78,69 @@ Constant pool:
     flags: (0x0009) ACC_PUBLIC, ACC_STATIC
     Code:
       stack=3, locals=2, args_size=1
-         0: new           #7                  // class java/lang/IllegalArgumentException
-         3: dup
-         4: ldc           #9                  // String
-         6: invokespecial #11                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
-         9: athrow
-        10: astore_1
-        11: getstatic     #16                 // Field java/lang/System.out:Ljava/io/PrintStream;
-        14: aload_1
-        15: invokevirtual #22                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
-        18: invokevirtual #26                 // Method java/lang/Class.getName:()Ljava/lang/String;
-        21: invokevirtual #32                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
-        24: aload_1
-        25: invokevirtual #37                 // Method java/lang/RuntimeException.printStackTrace:()V
-        28: new           #38                 // class java/lang/RuntimeException
-        31: dup
-        32: ldc           #9                  // String
-        34: invokespecial #42                 // Method java/lang/RuntimeException."<init>":(Ljava/lang/String;)V
-        37: athrow
-        38: astore_1
-        39: getstatic     #16                 // Field java/lang/System.out:Ljava/io/PrintStream;
-        42: aload_1
-        43: invokevirtual #22                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
-        46: invokevirtual #26                 // Method java/lang/Class.getName:()Ljava/lang/String;
-        49: invokevirtual #32                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
-        52: aload_1
-        53: invokevirtual #37                 // Method java/lang/RuntimeException.printStackTrace:()V
-        56: return
+         0: aload_0
+         1: arraylength
+         2: ifne          15
+         5: new           #7                  // class java/lang/IllegalArgumentException
+         8: dup
+         9: ldc           #9                  // String
+        11: invokespecial #11                 // Method java/lang/IllegalArgumentException."<init>":(Ljava/lang/String;)V
+        14: athrow
+        15: goto          36
+        18: astore_1
+        19: getstatic     #16                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        22: aload_1
+        23: invokevirtual #22                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        26: invokevirtual #26                 // Method java/lang/Class.getName:()Ljava/lang/String;
+        29: invokevirtual #32                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        32: aload_1
+        33: invokevirtual #37                 // Method java/lang/RuntimeException.printStackTrace:()V
+        36: aload_0
+        37: arraylength
+        38: ifne          51
+        41: new           #38                 // class java/lang/RuntimeException
+        44: dup
+        45: ldc           #9                  // String
+        47: invokespecial #42                 // Method java/lang/RuntimeException."<init>":(Ljava/lang/String;)V
+        50: athrow
+        51: goto          72
+        54: astore_1
+        55: getstatic     #16                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        58: aload_1
+        59: invokevirtual #22                 // Method java/lang/Object.getClass:()Ljava/lang/Class;
+        62: invokevirtual #26                 // Method java/lang/Class.getName:()Ljava/lang/String;
+        65: invokevirtual #32                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        68: aload_1
+        69: invokevirtual #37                 // Method java/lang/RuntimeException.printStackTrace:()V
+        72: return
       Exception table:
          from    to  target type
-             0    10    10   Class java/lang/IllegalArgumentException
-             0    10    10   Class java/lang/NullPointerException
-            28    38    38   Class java/lang/IllegalArgumentException
-            28    38    38   Class java/lang/NullPointerException
+             0    15    18   Class java/lang/IllegalArgumentException
+             0    15    18   Class java/lang/NullPointerException
+            36    51    54   Class java/lang/IllegalArgumentException
+            36    51    54   Class java/lang/NullPointerException
       LineNumberTable:
         line 7: 0
-        line 8: 10
-        line 9: 11
-        line 10: 24
-        line 14: 28
-        line 15: 38
-        line 16: 39
-        line 17: 52
-        line 19: 56
-      StackMapTable: number_of_entries = 2
-        frame_type = 74 /* same_locals_1_stack_item */
+        line 8: 5
+        line 13: 15
+        line 10: 18
+        line 11: 19
+        line 12: 32
+        line 16: 36
+        line 17: 41
+        line 22: 51
+        line 19: 54
+        line 20: 55
+        line 21: 68
+        line 23: 72
+      StackMapTable: number_of_entries = 6
+        frame_type = 15 /* same */
+        frame_type = 66 /* same_locals_1_stack_item */
           stack = [ class java/lang/RuntimeException ]
-        frame_type = 91 /* same_locals_1_stack_item */
+        frame_type = 17 /* same */
+        frame_type = 14 /* same */
+        frame_type = 66 /* same_locals_1_stack_item */
           stack = [ class java/lang/RuntimeException ]
+        frame_type = 17 /* same */
 }
 SourceFile: "MultiCatchBaseExceptions.java"
