@@ -39,3 +39,9 @@ public class GenericOverloading<T> {
 
 class GenericOverloadingString extends GenericOverloading<String> {
 }
+
+class GenericOverloadingString2 extends GenericOverloading<String> {
+    public void method1(String str) {
+	System.out.println("str: " + str);
+    }
+}
