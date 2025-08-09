@@ -1,5 +1,5 @@
 import java.util.Collection;
-import java.util.Number;
+import java.lang.Number;
 
 public class B1 {
 	public static <T> void method(Object[] o, Collection<? super Object> c) {

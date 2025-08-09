@@ -11,3 +11,12 @@ jar cvf modules/module2.jar -C ./target/module2/ .
 
 java --module-path modules -m module2/package2.Class2
 #java --module-path modules/module1.jar:modules.module2.jar -m module2/package2.Class2
+
+
+jdeps --module-path modules/ modules/module1.jar
+jdeps --module-path modules/ modules/module2.jar
+
+jdeps --module-path modules/ --module module1 --recursive -verbose
+jdeps --module-path modules/ --module module2 --recursive -verbose
+
+jlink --module-path modules --add-modules module1,module2 --output bin
